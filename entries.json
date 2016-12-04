@@ -1,0 +1,815 @@
+[
+    {
+        "code" : "adanaemniyetmudurlugu",
+        "title" : "Adana Emniyet Müdürlüğü Binası",
+        "client" : "Adana İl Özel İdaresi",
+        "place" : "Adana",
+        "year" : "2005",
+        "scale" : "37542",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "dalamanemniyetmudurlugu",
+        "title" : "Dalaman Emniyet Müdürlüğü Binası",
+        "client" : "Emniyet Genel Müdürlüğü",
+        "place" : "Dalaman, Muğla",
+        "year" : "2005",
+        "scale" : "1760",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "kirsehirpolismeslekyuksekokulu",
+        "title" : "Kırşehir Polis Meslek Yüksekokulu",
+        "client" : "Emniyet Genel Müdürlüğü",
+        "place" : "Kırşehir",
+        "year" : "2005",
+        "scale" : "22000",
+        "type" : "Eğitim",
+        "description" : ""
+    },
+    
+    {
+        "code" : "duzcehukumetkonagi",
+        "title" : "Düzce Hükümet Konağı",
+        "client" : "Bayındırlık Bakanlığı",
+        "place" : "Düzce",
+        "year" : "2005",
+        "scale" : "23863",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "jimnastiksalonu",
+        "title" : "Jimnastik Salonu",
+        "client" : "G.S.G.M.",
+        "place" : "Türkiye (Tip Proje)",
+        "year" : "2006",
+        "scale" : "10620",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "dortbinseyircilisporsalonu",
+        "title" : "Dört Bin Seyircili Spor Salonu",
+        "client" : "G.S.G.M.",
+        "place" : "Türkiye (Tip Proje)",
+        "year" : "2006",
+        "scale" : "14000",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "atletizmsalonu",
+        "title" : "Atletizm Salonu",
+        "client" : "G.S.G.M.",
+        "place" : "Türkiye (Tip Proje)",
+        "year" : "2006",
+        "scale" : "10620",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "esertepepoliskarakolu",
+        "title" : "Esertepe Polis Karakolu",
+        "client" : "Emniyet Genel Müdürlüğü",
+        "place" : "Keçiören, Ankara",
+        "year" : "2007",
+        "scale" : "800",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "artukluvillasi",
+        "title" : "Artuklu Villası",
+        "client" : "Artuklu İnşaat",
+        "place" : "Gölbaşı, Ankara",
+        "year" : "2009",
+        "scale" : "336",
+        "type" : "Konut",
+        "description" : ""
+    },
+    
+    {
+        "code" : "bagdatotel",
+        "title" : "Bağdat Otel",
+        "client" : "Oğuzhan Özturan",
+        "place" : "Bağdat, Irak",
+        "year" : "2009",
+        "scale" : "12000",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "bitlishalbinasiotelprojesi",
+        "title" : "Bitlis Hal Binası ve Otel Projesi",
+        "client" : "Bitlis Belediyesi",
+        "place" : "Bitlis",
+        "year" : "2009",
+        "scale" : "11250",
+        "type" : "Karma K.",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ikibinbesyuzseyircilisporsalonu",
+        "title" : "İki Bin Beş Yüz Seyircili Spor Salonu",
+        "client" : "G.S.G.M.",
+        "place" : "Türkiye (Tip Proje)",
+        "year" : "2009",
+        "scale" : "8486",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "kontrolbinasi",
+        "title" : "Kontrol Binası",
+        "client" : "Öner İlhan",
+        "place" : "Tngizt, Türkmenistan",
+        "year" : "2009",
+        "scale" : "3000",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "mitrityetmisbesyataklihastane",
+        "title" : "Mitrit 75 Yataklı Hastane",
+        "client" : "Trend İnşaat",
+        "place" : "Mitrit, Libya",
+        "year" : "2009",
+        "scale" : "8000",
+        "type" : "Sağlık",
+        "description" : ""
+    },
+    
+    {
+        "code" : "trablusulusalparkprojesi",
+        "title" : "Trablus Ulusal Park Projesi",
+        "client" : "Trend İnşaat",
+        "place" : "Trablus, Libya",
+        "year" : "2009",
+        "scale" : "10000",
+        "type" : "Kentsel",
+        "description" : ""
+    },
+    
+    {
+        "code" : "tripolirestaurant",
+        "title" : "Tripoli Restaurant",
+        "client" : "Trend İnşaat",
+        "place" : "Trablus, Libya",
+        "year" : "2009",
+        "scale" : "1600",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "adorefabrikabinasi",
+        "title" : "Adore Fabrika Binası",
+        "client" : "Adore",
+        "place" : "Ankara",
+        "year" : "2009",
+        "scale" : "21000",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "zawiahalisverismerkezi",
+        "title" : "Zawiah Alışveriş Merkezi",
+        "client" : "Trend İnşaat",
+        "place" : "Zawiah, Libya",
+        "year" : "2009",
+        "scale" : "28000",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "mavicamsosyaltesisi",
+        "title" : "Maviçam Sosyal Tesisi",
+        "client" : "S.S. Maviçam Kooperatifi",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2009",
+        "scale" : "1200",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "canakkaleikiyuzyatakliarastirmahastanesi",
+        "title" : "Çanakkale 200 Yataklı Araştırma Hastanesi",
+        "client" : "TÜMAŞ",
+        "place" : "Çanakkale",
+        "year" : "2010",
+        "scale" : "30000",
+        "type" : "Sağlık",
+        "description" : ""
+    },
+    
+    {
+        "code" : "telekombahcelievlermisafirhanesi",
+        "title" : "Telekom Bahçelievler Misafirhanesi",
+        "client" : "Türk Telekom A.Ş.",
+        "place" : "Bahçelievler, Ankara",
+        "year" : "2010",
+        "scale" : "1175",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "alisenerenvillasi",
+        "title" : "Ali Şeneren Villası",
+        "client" : "Ali Şeneren",
+        "place" : "Keçiören, Ankara",
+        "year" : "2010",
+        "scale" : "965",
+        "type" : "Konut",
+        "description" : ""
+    },
+    
+    {
+        "code" : "kadilaranaokulu",
+        "title" : "Kadılar Anaokulu",
+        "client" : "Müştak Kadılar",
+        "place" : "Ümitköy, Ankara",
+        "year" : "2010",
+        "scale" : "1300",
+        "type" : "Eğitim",
+        "description" : ""
+    },
+    
+    {
+        "code" : "tcddzonguldakgar",
+        "title" : "TCDD Zonguldak Gar Binası",
+        "client" : "TCDD 2. Bölge Müdürlüğü",
+        "place" : "Zonguldak",
+        "year" : "2011",
+        "scale" : "2865",
+        "type" : "Kamu",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ankaraeczaciodasi",
+        "title" : "Ankara Eczacı Odası",
+        "client" : "Ankara Eczacı Odası",
+        "place" : "Çankaya, Ankara ",
+        "year" : "2011",
+        "scale" : "1800",
+        "type" : "Sağlık",
+        "description" : ""
+    },
+    
+    {
+        "code" : "afyonmeteorolojibolgemudurlugu",
+        "title" : "Afyon Meteoroloji Bölge Müdürlüğü",
+        "client" : "Meteoroloji Genel Müdürlüğü",
+        "place" : "Afyon",
+        "year" : "2011",
+        "scale" : "660",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "artukluofisbinasi",
+        "title" : "Artuklu Ofis Binası",
+        "client" : "Artuklu İnşaat ",
+        "place" : "Gölbaşı, Ankara ",
+        "year" : "2011",
+        "scale" : "495",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "akdagmadenibelediyesi",
+        "title" : "Akdağmadeni Belediye Hizmet Binası",
+        "client" : "Akdağmadeni Belediyesi",
+        "place" : "Akdağmadeni, Yozgat",
+        "year" : "2011",
+        "scale" : "1635",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "gokerfabrikabinasi",
+        "title" : "Göker Fabrika Binası Avan Projesi",
+        "client" : "Göker A.Ş.",
+        "place" : "ASO 1. OSB, Ankara ",
+        "year" : "2011",
+        "scale" : "9000",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "anadolumetalurjifabrikabinasi",
+        "title" : "Anadolu Metalurji Fabrika Binası",
+        "client" : "Anadolu Metalurji A.Ş.",
+        "place" : "Temelli, Ankara",
+        "year" : "2012",
+        "scale" : "8000",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "kizilaysosyaltesisi",
+        "title" : "Türk Kızılayı Sosyal Tesisi",
+        "client" : "Artuklu İnşaat",
+        "place" : "Etimesgut, Ankara",
+        "year" : "2012",
+        "scale" : "1500",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "okaenerji",
+        "title" : "OKA Enerji Yönetim Binası",
+        "client" : "OKA Enerji",
+        "place" : "Çayyolu, Ankara",
+        "year" : "2012",
+        "scale" : "2750",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "meteorolojiradartesisi",
+        "title" : "Meteoroloji Radar Tesisi Tip Projesi",
+        "client" : "Meteoroloji Genel Müdürlüğü",
+        "place" : "Türkiye",
+        "year" : "2013",
+        "scale" : "700",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "meteorolojiilmudurlugu",
+        "title" : "Meteoroloji İl Müdürlüğü Tip Projesi",
+        "client" : "Meteoroloji İl Müdürlüğü ",
+        "place" : "Hatay",
+        "year" : "2013",
+        "scale" : "450",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "polatlihuzurevi",
+        "title" : "Polatlı 100 Yataklı Huzurevi Binası",
+        "client" : "Ankara İl Özel İdaresi",
+        "place" : "Polatlı, Ankara",
+        "year" : "2013",
+        "scale" : "10600",
+        "type" : "Sağlık",
+        "description" : ""
+    },
+    
+    {
+        "code" : "meteorolojibolgemudurlugu",
+        "title" : "Meteoroloji Bölge Müdürlüğü Tip Projesi",
+        "client" : "Meteoroloji Bölge Müdürlüğü",
+        "place" : "Türkiye",
+        "year" : "2013",
+        "scale" : "950",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "botanikgiriskarsilama",
+        "title" : "Milli Botanik Parkı Giriş ve Karşılama Merkezi",
+        "client" : "TÜMAŞ",
+        "place" : "Ankara",
+        "year" : "2013",
+        "scale" : "41500",
+        "type" : "Karma K.",
+        "description" : ""
+    },
+    
+    {
+        "code" : "aykonfabrika",
+        "title" : "Aykon Pano Fabrika Binası",
+        "client" : "Aykon Pano",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "17480",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "atabekalisverismerkezi",
+        "title" : "Atabek Alışveriş Merkezi",
+        "client" : "Haluk Atabek",
+        "place" : "Akyazı, Sakarya",
+        "year" : "2013",
+        "scale" : "5100",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "babacankaucukfabrikabinasi",
+        "title" : "Babacan Kauçuk Fabrika Binası",
+        "client" : "Babacan Kauçuk",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "4870",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "cevtasisletmecilikfabrikabinasi",
+        "title" : "Çevtaş İşletmecilik Fabrika Binası",
+        "client" : "Çırak Eğitim ve Öğretim Vakfı",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "2225",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ekonhidroelektrikkaucukfabrikabinasi",
+        "title" : "Ekon Hidrolik - Kauuk Fabrika Binası",
+        "client" : "Ekon Hidrolik Kauçuk Ticaret",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "4710",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ekolplastikambalajfabrikabinasi",
+        "title" : "Ekol Plastik Ambalaj Fabrika Binası",
+        "client" : "Ekol Plastik Ambalaj Sanayi",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "5620",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "eptimelektrikfabrikabinasi",
+        "title" : "Eptim Elektrik Fabrika Binası",
+        "client" : "Eptim Elektrik Ltd. Şti.",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "5760",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "jescofabrikabinasi",
+        "title" : "Jesco Fabrika Binası",
+        "client" : "Hamid Jafari",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "2880",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "mursalmetalfabrikabinasi",
+        "title" : "Mursal Metal Fabrika Binası",
+        "client" : "Mursal Metal Sanayi",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "2520",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "onarimakinafabrikabinasi",
+        "title" : "Önarı Makina Fabrika Binası",
+        "client" : "Önarı Makina Sanayi",
+        "place" : "Temelli, Ankara",
+        "year" : "2013",
+        "scale" : "2420",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ozbekkoyukoymuhtarligi",
+        "title" : "Özbek Köyü Köy Konağı Binası",
+        "client" : "Babacan Kauçuk",
+        "place" : "Şabanözü, Çankırı",
+        "year" : "2013",
+        "scale" : "800",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "titanmakinafabrikabinasi",
+        "title" : "Titan Makina Fabrika Binası",
+        "client" : "Titan Makina",
+        "place" : "Temelli, Ankara",
+        "year" : "2014",
+        "scale" : "4621",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "hayvanatbahcesiteleferikprojesialternatifuc",
+        "title" : "Hayvanat Bahçesi Teleferik Projesi 3. Alternatif",
+        "client" : "Valter",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2014",
+        "scale" : "500",
+        "type" : "Kamu",
+        "description" : ""
+    },
+    
+    {
+        "code" : "hayvanatbahcesiteleferikprojesialternatifiki",
+        "title" : "Hayvanat Bahçesi Teleferik Projesi 2. Alternatif",
+        "client" : "Valter",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2014",
+        "scale" : "500",
+        "type" : "Kamu",
+        "description" : ""
+    },
+    
+    {
+        "code" : "hayvanatbahcesiteleferikprojesialternatifbir",
+        "title" : "Hayvanat Bahçesi Teleferik Projesi 1. Alternatif",
+        "client" : "Valter",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2014",
+        "scale" : "500",
+        "type" : "Kamu",
+        "description" : ""
+    },
+    
+    {
+        "code" : "sislikonutprojesi",
+        "title" : "Şişli Konut Projesi",
+        "client" : "TÜMAŞ",
+        "place" : "Şişli, İstanbul",
+        "year" : "2014",
+        "scale" : "2200",
+        "type" : "Konut",
+        "description" : ""
+    },
+    
+    {
+        "code" : "damlakimyafabrikabinasi",
+        "title" : "Damla Kimya Fabrika Binası",
+        "client" : "Damla Kimya",
+        "place" : "Temelli, Ankara",
+        "year" : "2014",
+        "scale" : "2956",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "alpkarasarfabrikabinasi",
+        "title" : "Alp Karasar Fabrika Binası",
+        "client" : "Alp Karasar İnşaat ",
+        "place" : "Temelli, Ankara",
+        "year" : "2014",
+        "scale" : "6560",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "formelektrikfabrika",
+        "title" : "Formelektrik Fabrika Binası",
+        "client" : "Formelektrik",
+        "place" : "Temelli, Ankara",
+        "year" : "2014",
+        "scale" : "7234",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ibbtanitimofisi",
+        "title" : "İstanbul Büyükşehir Belediyesi Tanıtım Ofisi",
+        "client" : "TÜMAŞ",
+        "place" : "İstanbul",
+        "year" : "2014",
+        "scale" : "150",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "yenimahallesentepeteleferik",
+        "title" : "Yenimahalle Şentepe Teleferik Projesi",
+        "client" : "Valter",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2014",
+        "scale" : "1000",
+        "type" : "Karma K.",
+        "description" : ""
+    },
+    
+    {
+        "code" : "visanvincfabrika",
+        "title" : "VİSAN Vinç Fabrika Binası",
+        "client" : "VİSAN Vinç",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "3670",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "aydinlikevlerkapalipazaryeri",
+        "title" : "Aydınlıkevler Kapalı Pazar Alanı",
+        "client" : "Altındağ Belediyesi",
+        "place" : "Altındağ, Ankara",
+        "year" : "2015",
+        "scale" : "2196",
+        "type" : "Ticaret",
+        "description" : ""
+    },
+    
+    {
+        "code" : "eberkmakinafabrikabinasi",
+        "title" : "E-BERK Makina Fabrika Binası",
+        "client" : "E-BERK Makina",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "9860",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "matestasitsanayifabrikabinasi",
+        "title" : "MATEŞ Taşıt Sanayi Fabrika Binası",
+        "client" : "MATEŞ",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "17900",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "teknikgrupfabrikabinasi",
+        "title" : "Teknik Grup Fabrika Binası",
+        "client" : "Teknik Grup",
+        "place" : "Kazan, Ankara",
+        "year" : "2015",
+        "scale" : "2500",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "akdagmadenikonferanssalonu",
+        "title" : "Akdağmadeni Sinema ve Konferans Salonu Projesi",
+        "client" : "Akdağmadeni Belediyesi",
+        "place" : "Akdağmadeni, Yozgat",
+        "year" : "2015",
+        "scale" : "1010",
+        "type" : "Karma K.",
+        "description" : ""
+    },
+    
+    {
+        "code" : "altindagtapu",
+        "title" : "Altındağ Tapu ve Kadastro Hizmet Binası",
+        "client" : "Altındağ Belediyesi",
+        "place" : "Altındağ, Ankara",
+        "year" : "2015",
+        "scale" : "7200",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "artukluyonetimbinasi",
+        "title" : "Artuklu İnşaat Yönetim Binası",
+        "client" : "Artuklu İnşaat",
+        "place" : "Gölbaşı, Ankara ",
+        "year" : "2015",
+        "scale" : "492",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ceskompozit",
+        "title" : "C.E.S. Kompozit Fabrika Binası",
+        "client" : "C.E.S. Kompozit",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "12000",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "eregliptt",
+        "title" : "Ereğli PTT",
+        "client" : "PTT A.Ş.",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "1960",
+        "type" : "Ofis",
+        "description" : ""
+    },
+    
+    {
+        "code" : "mediflexmedikalfabrikabinasi",
+        "title" : "Mediflex Medikal Fabrika Binası",
+        "client" : "Mediflex Medikal",
+        "place" : "Temelli, Ankara",
+        "year" : "2015",
+        "scale" : "1260",
+        "type" : "Endüstri",
+        "description" : ""
+    },
+    
+    {
+        "code" : "ahmetyesevicamii",
+        "title" : "Ahmet Yesevi Camii",
+        "client" : "Ahmet Yesevi Camii Derneği",
+        "place" : "Çorlu, Tekirdağ",
+        "year" : "2016",
+        "scale" : "6667",
+        "type" : "Kültür",
+        "description" : ""
+    },
+    
+    {
+        "code" : "aocankaradogalyasamparkikamusalmeydan",
+        "title" : "AOÇ Ankara Doğal Yaşam Parkı Kamusal Meydan Projesi",
+        "client" : "Valter",
+        "place" : "Yenimahalle, Ankara",
+        "year" : "2016",
+        "scale" : "6185",
+        "type" : "Kentsel",
+        "description" : ""
+    },
+    
+    {
+        "code" : "dikilitasanaokulu",
+        "title" : "Dikilitaş Anaokulu ve Zemin Altı Otoparkı",
+        "client" : "İstanbul Büyükşehir Belediyesi",
+        "place" : "Beşiktaş, İstanbul",
+        "year" : "2016",
+        "scale" : "12981",
+        "type" : "Eğitim",
+        "description" : "Anaokulu olabildiğince çevresindeki yollardan geri çekilmiş; sınıflar ve performans alanı kamusal park içerisinde bırakılmıştır. Bir iç avlu çevresinde kurgulanan anaokulunun dışarıyla olan ilişkisi güvenlik sebepleriyle kesilmiştir. İç avlu, etrafındaki camlı koridor sayesinde görsel ve işlevsel olarak genişletilmiş, iç avlunun sınıflar ile ilişki kurması sağlanmıştır. Giriş kısmında idare ve performans alanı düşünülmüştür. Performans alanı, çocukların çeşitli etkinlikler yapmalarına ve bunları ebeveynlerine sunmalarına olanak sağlayarak, sosyal gelişimlerine katkı yapmak amaçlanmıştır."
+    },
+    
+    {
+        "code" : "esenyurtanaokulu",
+        "title" : "Esenyurt Anaokulu ve Zemin Altı Otoparkı",
+        "client" : "İstanbul Büyükşehir Belediyesi",
+        "place" : "Esenyurt, İstanbul",
+        "year" : "2016",
+        "scale" : "11656",
+        "type" : "Eğitim",
+        "description" : "Anaokulu yapısı; parsel üzerinde yer seçimi yapılırken, ön kısımda kamu kullanımına açık park alanı oluşturmak amacıyla yoldan geri çekilmiştir. Anaokuluna ulaşım açık otopark tarafında düzenlenmiş ayrıca açık otoparkta öğrenci servisleri için otopark alanı ayrılmıştır. Çeşitli güvenlik sebepleriyle yapı, bir iç avlu çevresinde kurgulanmıştır. Sınıflar kuzeydoğu tarafındaki mevcut Havana Parkına ve parselde düzenlenecek olan kamusal park alanına yönlendirilmiştir. Sınıflar ve performans alanı iç avluyla ilişkilendirilmiş, avlu çevresinde düşünülen toplanır camlarla bu ilişki artırılmıştır. Performans alanı, koridorlar ve iç avlu bir bütün olarak tasarlanmış ve çocukların bütün sosyal etkinliklerini gerçekleştirebilecekleri bir alana dönüşmüştür. Anaokulu yapısı, cephedeki renkli cam ve ahşap kaplamalarıyla, kareden deforme edilmiş yapı kütlesiyle; kendini tekrar eden kent dokusundan ayrılmıştır."
+    },
+    
+    {
+        "code" : "sultangaziambarprojesi",
+        "title" : "Sultangazi Ambar Projesi",
+        "client" : "İstanbul Büyükşehir Belediyesi",
+        "place" : "Sultangazi, İstanbul",
+        "year" : "2016",
+        "scale" : "22000",
+        "type" : "Endüstri",
+        "description" : ""
+    }
+]

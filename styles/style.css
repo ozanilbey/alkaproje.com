@@ -1,0 +1,530 @@
+/* ### RESET ### */
+
+body, html {
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    color: #333333;
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* Clearfix */
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+/* ### LAYOUT ### */
+
+.container { position: relative; margin: 0 auto; padding: 0; }
+.container .column { float: left; display: inline; }
+
+/* Clearing */
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+.clearfix:before,
+.clearfix:after,
+.row:before,city
+.row:after {
+    content: '\0020';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0; }
+.row:after,
+.clearfix:after {
+    clear: both; }
+.row,
+.clearfix {
+    zoom: 1; }
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+/* ### TYPOGRAPHY ### */
+
+@font-face {
+    font-family: "gothambook";
+    src: url("../fonts/gotham/gotham-book.eot");
+    src: url("../fonts/gotham/gotham-book.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/gotham/gotham-book.woff") format("woff"),
+        url("../fonts/gotham/gotham-book.ttf") format("truetype"),
+        url("../fonts/gotham/gotham-book.svg#gothambook") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "helveticabold";
+    src: url("../fonts/helvetica/helvetica-bold.eot");
+    src: url("../fonts/helvetica/helvetica-bold.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/helvetica/helvetica-bold.woff") format("woff"),
+         url("../fonts/helvetica/helvetica-bold.ttf") format("truetype"),
+         url("../fonts/helvetica/helvetica-bold.svg#helveticabold") format("svg");
+}
+
+@font-face {
+    font-family: "helveticalight";
+    src: url("../fonts/helvetica/helvetica-light.eot");
+    src: url("../fonts/helvetica/helvetica-light.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/helvetica/helvetica-light.woff") format("woff"),
+         url("../fonts/helvetica/helvetica-light.ttf") format("truetype"),
+         url("../fonts/helvetica/helvetica-light.svg#helveticalight") format("svg");
+}
+
+body, a, b, p, h1, h2, h3, h4, h5, h6, span, del, button, .bold, input, textarea, *::-webkit-input-placeholder {
+    font-family: "helveticalight", "Helvetica Light", "Arial";
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    text-shadow: none;
+    -webkit-text-shadow: none;
+}
+button, b, h1, h2, h3, h4, h5, h6, .bold {
+    font-family: "helveticabold";
+}
+input, textarea, select, button {
+    width: 100%;
+    box-sizing: border-box;
+}
+::selection {
+    color: #ffffff;
+    text-shadow: none;
+    background: #000;
+}
+::-moz-selection {
+    color: #ffffff;
+    text-shadow: none;
+    background: #000000;
+}
+::-webkit-input-placeholder {
+    color: #000000;
+}
+:-moz-placeholder {
+    color: #000000;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: "Merriweather";
+    letter-spacing: -.01em;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: "gothambook";
+    margin: 0;
+}
+
+h3 {
+    color: #444444;
+    font-weight: normal;
+    font-family: "helveticabold";
+}
+
+p {
+    font-weight: normal;
+    font-family: "helveticalight";
+
+}
+
+/* ### MENU ### */
+
+.menu {
+	position: fixed;
+    text-transform: uppercase;
+    background-color: #333333;
+    font-family: 'gothambook';
+}
+
+.menu ul {
+	padding: 0;
+	list-style: none;
+    cursor: pointer;
+}
+
+.menu ul li {
+	position: relative;
+    cursor: pointer;
+}
+
+.menu ul li a {
+    font-family: "gothambook";
+	display: block;
+	position: relative;
+	padding: 16px 20px 15px 20px;
+	font-size: 22px;
+	line-height: 30px;
+	font-weight: 300;
+	color: #888888;
+	outline: none;
+    text-decoration: none;
+    height: 61px; /* Style bug */
+    margin-top: -1px; /* Style fix */
+    background-repeat: repeat-x;
+    background-image: url(../images/menu-item_bg-passive.png);
+}
+
+.menu ul li a:hover {
+    background-image: url(../images/menu-item_bg-active.png);
+    background-repeat: repeat-x;
+}
+
+.menu ul li a.active {
+    color: #cccccc;
+    background-image: url(../images/menu-item_bg-active.png);
+    background-repeat: repeat-x;
+}
+
+/* Vertical Orientation */
+
+.menu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+}
+
+.menu-vertical a {
+	border-bottom: 1px solid #333333;
+	padding: 1em;
+}
+
+/* Left Side */
+
+.menu-left {
+	left: -240px;
+}
+
+.menu-left.menu-open {
+	left: 0px;
+}
+
+/* Push */
+
+.menu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.menu-push-toright {
+	left: 240px;
+}
+
+/* Transitions */
+
+.menu,
+.menu-push {
+	-webkit-transition: all .35s ease;
+	-moz-transition: all .35s ease;
+	transition: all .35s ease;
+}
+
+/* Handle */
+
+.handle {
+    top: 50px;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(230, 35, 50, 1);
+    z-index: 1000px;
+}
+
+.handle .identity {
+    float: left;
+}
+
+.handle .icon {
+    float: left;
+    cursor: pointer;
+}
+
+html {
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-image: url(../images/background.jpg);
+}
+
+body {
+    height: 100%;
+}
+
+/* ### DISPLAY ### */
+
+.display {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.display .cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: inline-block;
+    background-repeat: repeat;
+    background-position: bottom center;
+    background-image: url(../images/texture.png);
+}
+
+.row {
+    display: inline-block;
+}
+
+.main.container {
+    padding-top: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -moz-scrollbars-none;
+    -ms-overflow-style: none;
+	-webkit-transition: opacity .35s ease;
+	-moz-transition: opacity .35s ease;
+	transition: opacity .35s ease;
+}
+
+.main.container.passive {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.main.container::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.main.container > div {
+    display: none !important;
+}
+
+.main.container > div.open {
+    display: block !important;
+}
+
+#projects > div {
+    display: inline-block;
+}
+
+#projects #categories {
+    top: -15px;
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid rgba(230, 35, 50, 1);
+}
+
+#projects #categories > div {
+    text-align: center;
+}
+
+#projects #categories > div h3 {
+    color: #666666;
+    cursor: pointer;
+}
+
+#projects #categories > div h3.active {
+    color: #ffffff;
+    border-top: 1px solid rgba(230, 35, 50, 1);
+    border-left: 1px solid rgba(230, 35, 50, 1);
+    border-right: 1px solid rgba(230, 35, 50, 1);
+    background: rgba(230, 35, 50, 1);
+}
+
+#projects .filter {
+    display: none;
+    top: -15px;
+    position: relative;
+}
+
+#projects .active.filter {
+    display: inline-block;
+}
+
+#projects .filter > div {
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0;
+    text-align: center;
+    background: #888888;
+    color: white;
+}
+
+#projects .filter > div h4 {
+    margin: 0;
+}
+
+#projects .group {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+#projects .group > div {
+    position: absolute;
+    transition: left 0.5s ease, top 0.5s ease;
+}
+
+#projects .group > div .preview {
+    height: 100%;
+    display: block;
+    background-color: #333333;
+    padding: 0;
+    border: none;
+}
+
+#projects .group > div .preview img {
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(.85);
+    filter: grayscale(.85);
+    opacity: .65;
+    background-color: #333333;
+}
+
+#projects .group > div .preview:hover img {
+    -webkit-filter: none;
+    filter: none;
+}
+
+#projects .group > div .information {
+    color: #595959;
+    overflow: hidden;
+    position: absolute;
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: -.01em;
+}
+
+#projects .group > div .information h4 {
+    margin: 0;
+}
+
+#projects .project {
+    color: #ffffff;
+	background: rgba(89, 89, 89, .975);
+    display: none;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity 5s;
+    -webkit-transition: opacity 5s;
+    background-repeat: repeat;
+    background-image: url(../images/texture_dark.png);
+}
+
+#projects .project > div {
+    position: relative;
+}
+
+#projects .project h2 {
+    opacity: .75;
+}
+
+#projects .project h3 {
+    color: #ffffff;
+}
+
+#projects .project p {
+    opacity: 0.75;
+}
+
+#projects button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    top: 0% !important;
+    left: 0% !important;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.close {
+    position: relative;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.close img {
+    position: fixed;
+    opacity: .75;
+}
+
+.close img:hover {
+    opacity: 1;
+}
+
+.pictures {
+    position: relative;
+}
+
+.prev, .next {
+    width: 70px;
+    height: 70px;
+}
+
+.prev img, .next img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+img.picture {
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+}
+
+#team .profile {
+    text-align: center;
+}
+
+#contact #map {
+    height: inherit;
+    display: block;
+    position: absolute;
+    padding: 15px;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.15);
+}
+
+#chronological div:last-child h4:before {
+    content: '\2264';
+}

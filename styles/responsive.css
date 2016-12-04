@@ -1,0 +1,280 @@
+/* ### GRID SYSTEM ### */
+
+/* Window Width < 480 */
+
+@media only screen and (max-width: 479px) {
+    
+    .container { width: 320px; }
+    .container .one.column,
+    .container .two.column,
+    .container .three.column,
+    .container .four.column,
+    .container .five.column,
+    .container .six.column,
+    .container .seven.column,
+    .container .eight.column { width: 320px; }
+    .container .column { margin: 0 0 20px 0; }
+    .row { margin: 0; }
+    
+}
+
+/* 480  ≤ Window Width < 768 */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+    .container { width: 400px; }
+    .container .one.column,
+    .container .two.column,
+    .container .three.column,
+    .container .four.column,
+    .container .five.column,
+    .container .six.column,
+    .container .seven.column,
+    .container .eight.column { width: 380px; }
+    .container .column { margin: 0 0 20px 0; }
+    .row { margin: 0; }
+    
+}
+
+/* 768 ≤ Window Width < 1024 */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .container { width: 650px; }
+    .container .one.column { width: 70px; }
+    .container .two.column { width: 150px; }
+    .container .three.column { width: 230px; }
+    .container .four.column { width: 310px; }
+    .container .five.column { width: 390px; }
+    .container .six.column { width: 470px; }
+    .container .seven.column { width: 550px; }
+    .container .eight.column { width: 630px; }
+    .container .column { margin: 0 0 10px 10px; }
+    .row { margin-left: -10px; }
+    
+}
+
+/* 1024 ≤ Window Width < 1280*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    
+    .container { width: 855px; }
+    .container .one.column { width: 90px; }
+    .container .two.column { width: 195px; }
+    .container .three.column { width: 300px; }
+    .container .four.column { width: 405px; }
+    .container .five.column { width: 510px; }
+    .container .six.column { width: 615px; }
+    .container .seven.column { width: 720px; }
+    .container .eight.column { width: 825px; }
+    .container .column { margin: 0 0 15px 15px; }
+    .row { margin-left: -15px; }
+    
+}
+
+/* 1280 ≤ Window Width */
+
+@media only screen and (min-width: 1280px) {
+    
+    .container { width: 960px; }
+    .container .one.column { width: 100px; }
+    .container .two.column { width: 220px; }
+    .container .three.column { width: 340px; }
+    .container .four.column { width: 460px; }
+    .container .five.column { width: 580px; }
+    .container .six.column { width: 700px; }
+    .container .seven.column { width: 820px; }
+    .container .eight.column { width: 940px; }
+    .container .column { margin: 0 0 20px 20px; }
+    .row { margin-left: -20px; }
+    
+}
+
+/* ### LAYOUT ### */
+
+/* Window Width < 480 */
+
+@media only screen and (max-width: 479px) {
+    
+    .container { left: 30px; }
+    
+    #projects .group > div { height: 60px; position: relative; top: 0px !important; left: 0px !important; }
+    #projects .group > div .preview { height: 60px; }
+    #projects .group .preview { width: 60px; }
+    #projects .group > div .information { display: block; top: 0px; width: 300px; height: 60px; left: 70px; font-size: 15px; line-height: 20px; }
+    #projects #categories, #projects .filter { display: none !important; }
+    #projects .project { padding: 50px 0; }
+    #projects .project > div { left: -30px; }
+    img.picture { padding: 7px; }
+    .picture + .picture { margin: 14px 0 0 0; }
+    
+    .menu ul { margin: 110px 0 0 0; }
+    .handle { top: 50px; right: -60px; width: 300px; height: 60px; }
+    .handle .identity { width: 240px; padding: 14px 20px; }
+    .handle .identity img { height: 32px; }
+    .handle .icon { width: 60px; padding: 18px 14px; }
+    .handle .icon img { height: 24px; }
+    
+    h1 { font-size: 20px; line-height: 30px; margin: 0 0 15px 0; }
+    h2 { font-size: 24px; line-height: 34px; }
+    h3 { font-size: 17px; line-height: 26px; margin: 0 0 10px 0; }
+    p { font-size: 16px; line-height: 22px; margin: 0 0 15px 0; }
+    
+    .textblock img { margin: 0 0 15px 0; }
+    
+    .close img { width: 30px; height: 30px; top: 10px; right: 10px; }
+}
+
+/* 480  ≤ Window Width < 768 */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .container { left: 40px; }
+    
+    #projects .group > div { height: 70px; position: relative; top: 0px !important; left: 0px !important; }
+    #projects .group > div .preview { height: 70px; }
+    #projects .group .preview { width: 70px; }
+    #projects .group > div .information { display: block; top: 0px; width: 300px; height: 70px; left: 80px; font-size: 17px; line-height: 23px; }
+    #projects #categories, #projects .filter { display: none !important; }
+    #projects .project { padding: 50px 0; }
+    #projects .project > div { left: -40px; }
+    img.picture { padding: 9px; }
+    .picture + .picture { margin: 18px 0 0 0; }
+    
+    .menu ul { margin: 110px 0 0 0; }
+    .handle { top: 50px; right: -60px; width: 300px; height: 60px; }
+    .handle .identity { width: 240px; padding: 13px 20px; }
+    .handle .identity img { height: 34px; }
+    .handle .icon { width: 60px; padding: 18px 14px; }
+    .handle .icon img { height: 24px; }
+    
+    h1 { font-size: 24px; line-height: 30px; margin: 0 0 18px 0; }
+    h2 { font-size: 22px; line-height: 34px; }
+    h3 { font-size: 17px; line-height: 26px; margin: 0 0 10px 0; }
+    p { font-size: 16px; line-height: 22px; margin: 0 0 18px 0; }
+    
+    .textblock img { margin: 0 0 18px 0; }
+    
+    .close img { width: 35px; height: 35px; top: 10px; right: 10px; }
+    
+}
+
+/* 768 ≤ Window Width < 1024 */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .container { left: 35px; }
+    
+    #projects .group > div { height: 70px; }
+    #projects .group > div .preview { height: 70px; }
+    #projects .group .preview { width: 70px; }
+    #projects .group > div .information { display: none; }
+    #projects #categories { display: inline-block; width: 630px; margin-left: 0px; height: 35px; margin-bottom: 10px; }
+    #projects #categories > div:first-child { margin-left: 0px; }
+    #projects #categories > div h3 { height: 35px; padding-top: 2px; }
+    #projects .filter { height: 20px; }
+    #projects .filter > div { height: 25px; }
+    #projects .filter > div h4 { margin-top: -2px; }
+    #projects .project { padding: 50px 0; }
+    #projects .project > div { left: -35px; }
+    .pictures { left: 0px; width: 500000px; }
+    .pictures .picture { float: left; padding: 11px; }
+    .picture + .picture { margin: 0 0 0 10px; }
+    
+    .menu ul { margin: 120px 0 0 0; }
+    .handle { top: 50px; right: -70px; width: 310px; height: 70px; }
+    .handle .identity { width: 240px; padding: 17px 20px; }
+    .handle .identity img { height: 36px; }
+    .handle .icon { width: 70px; padding: 22px 18px; }
+    .handle .icon img { height: 26px; }
+    
+    h1 { font-size: 36px; line-height: 44px; margin: 0 0 25px 0; }
+    h2 { font-size: 28px; line-height: 34px; }
+    h3 { font-size: 22px; line-height: 28px; margin: 0 0 14px 0; }
+    p { font-size: 18px; line-height: 24px; margin: 0 0 25px 0; }
+    
+    .textblock img { margin: 0 0 25px 0; }
+    
+    .close img { width: 50px; height: 50px; top: 25px; right: 25px; }
+    
+}
+
+/* 1024 ≤ Window Width < 1280*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    
+    .container { left: 40px; }
+    
+    #projects .group > div { height: 90px; }
+    #projects .group > div .preview { height: 90px; }
+    #projects .group .preview { width: 90px; }
+    #projects .group > div .information { display: none; }
+    #projects #categories { display: inline-block; width: 825px; margin-left: 0px; height: 40px; margin-bottom: 15px; }
+    #projects #categories > div:first-child { margin-left: 0px; }
+    #projects #categories > div h3 { height: 40px; padding-top: 4px; }
+    #projects .filter { height: 30px; }
+    #projects .filter > div { height: 30px; }
+    #projects .filter > div h4 { margin-top: 1px; }
+    #projects .project { padding: 50px 0; }
+    #projects .project > div { left: -40px; }
+    .pictures { left: 0px; width: 500000px; }
+    .pictures .picture { float: left; padding: 13px; }
+    .picture + .picture { margin: 0 0 0 15px; }
+        
+    .menu ul { margin: 130px 0 0 0; }
+    .handle { top: 50px; right: -80px; width: 320px; height: 80px; }
+    .handle .identity { width: 240px; padding: 20px; }
+    .handle .identity img { height: 40px; }
+    .handle .icon { width: 80px; padding: 24px 20px; }
+    .handle .icon img { height: 30px; }
+    
+    h1 { font-size: 38px; line-height: 48px; margin: 0 0 30px 0; }
+    h2 { font-size: 30px; line-height: 36px; }
+    h3 { font-size: 23px; line-height: 29px; margin: 0 0 17px 0; }
+    p { font-size: 20px; line-height: 26px; margin: 0 0 30px 0; }
+    
+    .textblock img { margin: 0 0 30px 0; }
+    
+    .close img { width: 50px; height: 50px; top: 25px; right: 25px; }
+    
+}
+
+/* 1280 ≤ Window Width */
+
+@media only screen and (min-width: 1280px) {
+    
+    .container { left: 30px; }
+    
+    #projects .group > div { height: 100px; }
+    #projects .group > div .preview { height: 100px; }
+    #projects .group .preview { width: 100px; }
+    #projects .group > div .information { display: none; }
+    #projects #categories { display: inline-block; width: 940px; margin-left: 0px; height: 45px; margin-bottom: 20px; }
+    #projects #categories > div:first-child { margin-left: 0px; }
+    #projects #categories > div h3 { height: 45px; padding-top: 5px; }
+    #projects .filter { height: 40px; }
+    #projects .filter > div { height: 35px; }
+    #projects .filter > div h4 { margin-top: 3px; font-size: 14px; }
+    #projects .project { padding: 50px 0; }
+    #projects .project > div { left: -30px; }
+    .pictures { left: 0px; width: 500000px; }
+    .pictures .picture { float: left; padding: 15px; }
+    .picture + .picture { margin: 0 0 0 20px; }
+    
+    .menu ul { margin: 130px 0 0 0; }
+    .handle { top: 50px; right: -80px; width: 320px; height: 80px; }
+    .handle .identity { width: 240px; padding: 20px; }
+    .handle .identity img { height: 40px; }
+    .handle .icon { width: 80px; padding: 24px 20px; }
+    .handle .icon img { height: 30px; }
+    
+    h1 { font-size: 40px; line-height: 52px; margin: 0 0 40px 0; }
+    h2 { font-size: 32px; line-height: 38px; }
+    h3 { font-size: 24px; line-height: 30px; margin: 0 0 20px 0; }
+    p { font-size: 21px; line-height: 28px; margin: 0 0 40px 0; }
+    
+    .textblock img { margin: 0 0 40px 0; }
+    
+    .close img { width: 70px; height: 70px; top: 50px; right: 50px; }
+    
+}
